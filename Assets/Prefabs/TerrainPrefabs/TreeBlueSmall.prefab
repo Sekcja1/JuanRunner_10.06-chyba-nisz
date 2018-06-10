@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1114622104519856}
+  m_IsPrefabParent: 1
+--- !u!1 &1114622104519856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4369186585138096}
+  - component: {fileID: 212585144500447298}
+  - component: {fileID: 114524504147037904}
+  - component: {fileID: 68043174957429244}
+  m_Layer: 0
+  m_Name: TreeBlueSmall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4369186585138096
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114622104519856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.1, y: 5.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68043174957429244
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114622104519856}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.19529724, y: -2.5572944}
+  - {x: -0.12402344, y: -2.0917752}
+  - {x: -0.064460754, y: -1.4886093}
+  - {x: -0.14578247, y: -0.9862027}
+  - {x: -0.5794296, y: -0.9845538}
+  - {x: -1.0727158, y: -0.8106041}
+  - {x: -1.2000961, y: -0.237082}
+  - {x: -0.75338745, y: 0.23238277}
+  - {x: -0.20973206, y: 0.49097204}
+  - {x: 0.37955475, y: 0.48029375}
+  - {x: 0.63153076, y: 0.15579748}
+  - {x: 0.8795395, y: -0.19725513}
+  - {x: 1.1644058, y: -0.69848347}
+  - {x: 1.2567444, y: -0.9328408}
+  - {x: 1.1536407, y: -1.0812559}
+  - {x: 1.136734, y: -1.1374302}
+  - {x: 1.0926819, y: -1.1282587}
+  - {x: 0.9719162, y: -1.2148619}
+  - {x: 0.6875992, y: -1.3093982}
+  - {x: 0.41496277, y: -1.3022847}
+  - {x: 0.09883118, y: -1.2360282}
+  - {x: 0.17190552, y: -1.5388646}
+  - {x: 0.12565613, y: -1.9751921}
+  - {x: 0.19078827, y: -2.5457442}
+--- !u!114 &114524504147037904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114622104519856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7186af40947548148a8fbc67e11ea6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &212585144500447298
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114622104519856}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f72d8a35f0bfe634eac5d6fd8e27cccc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 5.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
